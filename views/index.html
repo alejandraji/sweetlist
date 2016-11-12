@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html>
+  <head>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Rye' rel='stylesheet' type='text/css'>
+    <script src='js/jquery.js'></script>
+    <script src='js/script.js'></script>
+    <title>SweetList </title>
+</head>
+  <body>
+
+        <div class="container">
+
+            <div class="card-panel red lighten-2 page-header">
+          <h1>SweetList <small>Baby Registry</small></h1>
+          </div>
+        <div class="container">
+        <div class="topcorner">
+       <a href="sessions/logout" class="btn btn-default"" role="button">LogOut</a>
+
+            </div>
+
+
+        <div class="container-img">
+        <img src="img/happybaby.jpg" alt="..." class="img-thumbnail">
+
+        <div id="etsy-terms">
+        <div class="input-group">
+        <span class="input-group-addon" id="sizing-addon1">Baby</span>
+        <input type="text" class="form-control" placeholder="Search accessories, clothing..." aria-describedby="sizing-addon2">
+        </div>
+        <input class="btn btn-default" id="search-etsy" type="submit" value="Search">
+        <div id="wishlist">
+        <a href="/items/{{ session.user.email }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Wishlist</a>
+        </div>
+
+        <input class="email" type="hidden" value="{{ session.user.email }}" />
+
+          <div id="etsy_results"></div>
+
+
+        </div>
+       </div>
+
+
+    </div>
+  </body>
+</html>
+
+

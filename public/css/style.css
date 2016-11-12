@@ -1,0 +1,89 @@
+
+
+.main-container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: Open sans, Oswald, Merriweather;
+}
+
+h3 {
+  font-family: Open sans, Oswald, Merriweather;
+}
+
+.center-block { float: none }
+small{
+  text-color:black;
+}
+
+.container {
+  text-align: center;
+  backgroud-color:#e57373;
+
+
+}
+
+.formcontrol {
+  text-decoration-color: #ffffff;
+
+}
+
+.btn-block{
+  display:inline-block;
+
+}
+
+.container-img{
+  margin:0 auto;
+  width: 500px;
+  height: 600px;
+}
+
+.topcorner {
+    position: absolute;
+    top: 105%;
+    right: -66px;
+    font-family: Open sans, Oswald, Merriweather;
+    font-size: 132px;
+    padding: 80px;
+  }
+
+  hr {
+  height: 10px;
+  border: 2;
+  box-shadow: 0 10px 10px -10px
+  }
+#registry {
+display: inline-block;
+}
+#wishlist  {
+  display: inline-block;
+}
+
+body{
+ background-color: #80cbc4;
+}
+
+#etsy_results{
+font-family: Open sans, Oswald, Merriweather;
+font-size: 20px;
+}
+
+.btn btn-primary btn-lg{
+ height: auto;
+}
+/*
+#etsy-search {
+  font-family: Open sans, Oswald, Merriweather;
+  width:235px;
+  height:30px;
+  position:relative;
+  margin-top:50px;
+  margin-bottom: 50px;
+  margin-bottom:0;
+}*/
